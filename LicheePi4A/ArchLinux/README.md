@@ -40,8 +40,6 @@ sudo tar -I zstd -xvf archriscv-2023-12-13.tar.zst -C mnt/
 lsblk -o NAME,UUID
 ```
 
-f08dc2bf-4d5b-4b01-97c4-904764f0d528
-
 - 到 rootfs 中进行必要的更新，包安装与调整
 ```bash
 sudo systemd-nspawn -D ./mnt --machine=archriscv
