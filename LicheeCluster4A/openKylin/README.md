@@ -1,8 +1,8 @@
-# openKylin Lichee Cluster 4A Version Test Report
+# openKylin Lichee Cluster 4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: openKylin 2.0 alpha
 - Download Link: [https://www.openkylin.top/downloads/index-cn.html](https://www.openkylin.top/downloads/index-cn.html)
@@ -24,7 +24,7 @@
 
 Use an A to A cable to connect the SOM.
 
-### Flash the Bootloader
+### Flashing the Bootloader
 
 Extract the installation kit.
 Navigate to the directory of the fastboot tool.
@@ -39,7 +39,7 @@ sudo ./fastboot flash uboot ../../images/$(ram_size)/u-boot-nonsec-2020.10-r0-no
 sudo ./fastboot flash boot ../../images/$(ram_size)/boot.ext4
 ```
 
-### Flash the Image
+### Flashing the Image
 
 Flash the root partition into the eMMC.
 
@@ -47,7 +47,7 @@ Flash the root partition into the eMMC.
 sudo ./fastboot flash root ../../images/openkylin-2.0-alpha-licheepi4a-riscv64.ext4
 ```
 
-### System Login
+### Logging into the System
 
 Login to the system via SOL (Serial Over LAN).
 
@@ -76,7 +76,7 @@ The system starts successfully and allows login via SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from system flashing to startup):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/d4d3yatzsx13CRtcdqV0RF7Td.svg)](https://asciinema.org/a/d4d3yatzsx13CRtcdqV0RF7Td)
 
@@ -113,12 +113,12 @@ openkylin@openkylin:~$
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

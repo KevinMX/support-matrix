@@ -7,7 +7,7 @@
 - System Version: Ubuntu 20.04 LTS 
 - Download Link: [Armbian-RISCV-Build Repository](https://github.com/chainsx/armbian-riscv-build/tree/main)
     - u-boot: [thead-u-boot Actions](https://github.com/chainsx/thead-u-boot/actions)
-- Installation reference: [LicheePi 4A Install Guide](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
+- Reference Installation Document: [LicheePi 4A Install Guide](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
 - Fastboot Links:
     - [Baidu Pan Link](https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ)
     - [MegaNZ Link](https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA)
@@ -24,7 +24,7 @@
 ### Flashing Image
 
 Use `unxz` to decompress the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/Armbian.img.xz
@@ -47,21 +47,21 @@ sudo ./fastboot flash uboot ./path/to/your/lpi4a-$(ram_size)-u-boot-with-spl.bin
 
 ### Logging into the System
 
-Login to the system via the serial port.
+Logging into the system via the serial port.
 
 On initial startup, you will be prompted to set up a user and password.
 
-## Expected Outcome
+## Expected Results
 
 The system should boot normally and allow login via the onboard serial port.
 
-## Actual Outcome
+## Actual Results
 
 The system booted successfully and login via the onboard serial port was also successful.
 
 ### Boot Information
 
-Screen recording (From image flashing to system login):
+Screen recording (From flashing image to system login):
 [![asciicast](https://asciinema.org/a/CPXNwT3yJUG4wHDKdWGucbHm9.svg)](https://asciinema.org/a/CPXNwT3yJUG4wHDKdWGucbHm9))
 
 ```log
@@ -116,9 +116,9 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Memory: 165MiB / 7705MiB
 
 ## Test Criteria
 
-Successful Test: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Failed Test: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

@@ -41,7 +41,7 @@ sudo ./fastboot flash root ../../images/openkylin-2.0-alpha-licheepi4a-riscv64.e
 
 ### Logging into the System
 
-Login to the system via serial console.
+Logging into the system via serial console.
 
 Default username: `openkylin`
 Default password: `openkylin`
@@ -95,15 +95,15 @@ openkylin@openkylin:~$
 
 ![neofetch](./neofetch.png)
 
-### FAQ
+### Common Issue
 
 In case of desktop freeze, try switching from wayland.
 
 ## Test Criteria
 
-Successful Test: Actual results match expected results.
+Successful: The actual result matches the expected result.
 
-Failed Test: Actual results do not match expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

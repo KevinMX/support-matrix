@@ -2,11 +2,11 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS
-- Download Link: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/3_images.html)
-- Reference Installation Document: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/4_burn_image.html)
+- Download Link: [sipeed](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/3_images.html)
+- Reference Installation Document: [sipeed](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/4_burn_image.html)
 
 ### Hardware Information
 
@@ -25,7 +25,7 @@ Press and hold the boot button while pressing the power button on the keyboard t
 ID 2345:7654 T-HEAD USB download gadget
 ```
 
-### Writing Image to Onboard eMMC using `fastboot`
+### Flashing Image to Onboard eMMC using `fastboot`
 
 Decompress the image using lz4:
 ```bash
@@ -45,7 +45,7 @@ fastboot flash root path/to/root.ext4
 
 ### Logging into the System
 
-Log into the system via serial port or graphical interface.
+Logging into the system via serial port or graphical interface.
 
 The default image account password configurations are as follows:
 
@@ -55,17 +55,17 @@ Account: `debian`, Password: `debian`
 
 The root account does not have a password ny default.
 
-## Expected Result
+## Expected Results
 
 The system starts up correctly, and login is successful.
 
-## Actual Result
+## Actual Results
 
 The system boots up correctly, allows successful login, and access to the system.
 
 ### Boot Information
 
-Screen recording (system flashing):
+Screen recording (flashing the system):
 
 [![asciicast](https://asciinema.org/a/hZHlwXaPj9W1AQgADtrgYRB4m.svg)](https://asciinema.org/a/hZHlwXaPj9W1AQgADtrgYRB4m)
 
@@ -93,12 +93,12 @@ debian@lpi4a:~$
 
 ![machine](image-1.png)
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

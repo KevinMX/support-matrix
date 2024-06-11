@@ -1,12 +1,12 @@
-# Fedora 38 Lichee Cluster 4A Version Test Report
+# Fedora 38 Lichee Cluster 4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: Fedora 38
 - Download link: [https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/](https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/)
-- Reference installation document: [https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head](https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head)
+- Reference Installation Document: [https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head](https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head)
 - Fastboot links:
     - [https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ](https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ)
     - [https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA](https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA)
@@ -26,17 +26,17 @@
 
 *Note: Fedora system boots from an SD card, not eMMC, so make sure to insert the card*
 
-### Write Image
+### Flashing Image
 
 Use `unxz` to decompress the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/fedora.raw.xz
 sudo dd if=/path/to/fedora.raw of=/dev/your_device bs=1M status=progress
 ```
 
-### Write Bootloader
+### Flashing Bootloader
 
 **Note: Fedora's u-boot is in the image. After the previous `dd` step, extract it from the boot partition on the SD card!**
 ![u-boot](./u-boot.png)
@@ -48,7 +48,7 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/u-boot-with-spl_lpi4a.bin
 ```
 
-### System Login
+### Logging into the System
 
 Login to the system using SOL (Serial Over LAN).
 
@@ -75,7 +75,7 @@ The system boots up correctly, and you can log in via SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from system flash to boot-up):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/OTu3SKCoCpADbc4AMNJNOjjoQ.svg)](https://asciinema.org/a/OTu3SKCoCpADbc4AMNJNOjjoQ)
 
@@ -125,12 +125,12 @@ cccccccc;.:odl:.;cccccccccccccc:,.
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

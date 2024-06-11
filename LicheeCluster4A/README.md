@@ -2,32 +2,32 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - RevyOS (Sipeed Vendor Image)
     - Download link: [here](https://dl.sipeed.com/shareURL/LICHEE/LicheeCluster4A/04_Firmware/lpi4a/bin)
-    - Reference installation document: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lc4a/lc4a.html)
+    - Reference Installation Document: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lc4a/lc4a.html)
 - openEuler RISC-V 23.09 Preview
     - Download link: [here](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.09-V1-riscv64/lpi4a/)
-    - Reference installation document: [here](https://revyos.github.io/)
+    - Reference Installation Document: [here](https://revyos.github.io/)
 - RevyOS (w/mainline kernel)
     - Download link: [here](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4amain/20240127/)
-    - Reference installation document: [here](https://revyos.github.io/)
+    - Reference Installation Document: [here](https://revyos.github.io/)
 - RevyOS
     - Download link: [here](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)
-    - Reference installation document: [here](https://docs.revyos.dev/)
+    - Reference Installation Document: [here](https://docs.revyos.dev/)
 - openKylin
     - Download link: [here](https://www.openkylin.top/downloads/index-cn.html)
-    - Reference installation document: [here](https://docs.openkylin.top/zh/%E7%A4%BE%E5%8C%BA%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/riscv%E4%B8%8A%E5%AE%89%E8%A3%85openKylin)
+    - Reference Installation Document: [here](https://docs.openkylin.top/zh/%E7%A4%BE%E5%8C%BA%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/riscv%E4%B8%8A%E5%AE%89%E8%A3%85openKylin)
 - Fedora
     - Download link: [here](https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/)
-    - Reference installation document: [here](https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head)
+    - Reference Installation Document: [here](https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head)
 - Armbian
     - Download link: [here](https://github.com/chainsx/armbian-riscv-build/tree/main)
-    - Reference installation document: [here](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
+    - Reference Installation Document: [here](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
 - OpenWRT
     - Download link: [here](https://github.com/chainsx/openwrt-th1520/releases)
-    - Reference installation document: [here](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
+    - Reference Installation Document: [here](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
 
 ### Hardware Development Board Information
 

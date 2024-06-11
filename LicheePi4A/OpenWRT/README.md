@@ -7,7 +7,7 @@
 - System Version: OpenWRT
 - Download Link: [https://github.com/chainsx/openwrt-th1520/releases](https://github.com/chainsx/openwrt-th1520/releases)
 - Reference Installation Document: [https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
-- Fastboot Links:
+- fastboot Links:
     - [https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ](https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ)
     - [https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA](https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA)
 
@@ -23,7 +23,7 @@
 ### Flashing Image
 
 Use `gzip` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 gzip -d /path/to/openwrt.img.xz
@@ -47,21 +47,21 @@ sudo ./fastboot flash uboot ./path/to/your/lpi4a-$(ram_size)-u-boot-with-spl.bin
 
 ### Logging into the System
 
-Log into the system via serial port.
+Logging into the system via serial port.
 
 Upon initial boot, it will automatically log in as the root user.
 
-## Expected Outcome
+## Expected Results
 
 The system should boot up properly and allow login via the onboard serial port.
 
-## Actual Outcome
+## Actual Results
 
 The system boots up successfully and allows login via the onboard serial port.
 
 ### Boot Information
 
-Screen recording (from flashing the image to logging into the system):
+Screen recording (from flash the image to logging into the system):
 
 [![asciicast](https://asciinema.org/a/DNRiqiUpdDxlAWHnSkQTvqsNt.svg)](https://asciinema.org/a/DNRiqiUpdDxlAWHnSkQTvqsNt)
 
@@ -91,9 +91,9 @@ root@OpenWrt:/#
 
 ## Test Criteria
 
-Test successful: The actual result matches the expected result.
+Successful: The actual result matches the expected result.
 
-Test failed: The actual result does not match the expected result.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

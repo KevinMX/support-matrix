@@ -1,4 +1,4 @@
-# Fedora 38 LPi4A Official Version Test Report
+# Fedora 38 LPi4A Official Test Report
 
 ## Test Environment
 
@@ -7,7 +7,7 @@
 - System Version: Fedora 38
 - Download Link: [https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/](https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/)
 - Reference Installation Document: [https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head](https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head)
-- Fastboot Links:
+- fastboot Links:
     - [https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ](https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ)
     - [https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA](https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA)
 
@@ -20,17 +20,17 @@
 
 ## Installation Steps
 
-### Write Image
+### Flashing Image
 
 Use `unxz` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/fedora.raw.xz
 sudo dd if=/path/to/fedora.raw of=/dev/your_device bs=1M status=progress
 ```
 
-### Flash Bootloader
+### Flashing Bootloader
 
 **Note: The Fedora's u-boot is in the image. After dd in the previous step, extract from the boot partition on the SD card!**
 ![u-boot](./u-boot.png)
@@ -48,9 +48,9 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/u-boot-with-spl_lpi4a.bin
 ```
 
-### Log in to the System
+### Logging into the System
 
-Log in to the system via serial port.
+Logging into the System via serial port.
 
 Default Username: `root`
 Default Password: `riscv`
@@ -65,7 +65,7 @@ The system boots up correctly, successfully logged in via the onboard serial por
 
 ### Boot Information
 
-Screen recording (from writing the image to logging into the system):
+Screen recording (from flashing the image to logging into the system):
 
 [![asciicast](https://asciinema.org/a/h2waHR5bazhEOeMYYxbbWUxBm.svg)](https://asciinema.org/a/h2waHR5bazhEOeMYYxbbWUxBm)
 
@@ -115,9 +115,9 @@ cccccccc;.:odl:.;cccccccccccccc:,.
 
 ## Test Criteria
 
-Successful Test: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Failed Test: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

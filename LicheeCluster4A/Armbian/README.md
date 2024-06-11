@@ -1,8 +1,8 @@
-# Armbian Lichee Cluster 4A Version Test Report
+# Armbian Lichee Cluster 4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: Ubuntu 20.04 LTS
 - Download Link: [https://github.com/chainsx/armbian-riscv-build/tree/main](https://github.com/chainsx/armbian-riscv-build/tree/main)
@@ -26,17 +26,17 @@
 
 *Below is an example of flashing to the first board in the cluster*
 
-### Flash Image
+### Flashing Image
 
 Use `unxz` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/Armbian.img.xz
 sudo dd if=/path/to/Armbian.img of=/dev/your_device bs=1M status=progress
 ```
 
-### Flash Bootloader
+### Flashing Bootloader
 
 Use the u-boot downloaded above.
 
@@ -47,9 +47,9 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/lpi4a-$(ram_size)-u-boot-with-spl.bin
 ```
 
-### Login to the System
+### Logging to the System
 
-Login to the system via SOL (Serial Over LAN).
+Logging into the system via SOL (Serial Over LAN).
 
 Default BMC username: `root`
 
@@ -73,7 +73,7 @@ The system booted up normally, allowing login via SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from flashing system to booting):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/glbyZg6rjqfWu1YiQhyj62Zww.svg)](https://asciinema.org/a/glbyZg6rjqfWu1YiQhyj62Zww)
 
@@ -144,12 +144,12 @@ root@licheepi-4a:~#
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

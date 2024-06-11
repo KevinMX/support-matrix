@@ -1,16 +1,16 @@
-# RevyOS LPi4A Version Test Report
+# RevyOS LPi4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS 20231210
-- Download Link: [Click here](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)
-- Reference Installation Guide: [Visit here](https://revyos.github.io/docs/)
+- Download Link: [ISCAS mirror](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)
+- Reference Installation Document: [Visit here](https://revyos.github.io/docs/)
 
 ### Hardware Information
 
-- Lichee Pi 4A (16GB RAM + 128GB eMMC)
+- Lichee Pi 4A (16GB RAM + 128GB eMMFAQC)
 - USB-C Power Adapter / DC Power Supply
 - USB-UART Debugger
 
@@ -20,9 +20,9 @@
 
 Install the [`ruyi`](https://github.com/ruyisdk/ruyi) package manager, run `ruyi device provision`, and follow the prompts.
 
-### Log into the System
+### Logging into the System
 
-Log into the system via serial console or graphical interface.
+Logging into the system via serial console or graphical interface.
 
 Default username: `debian`
 Default password: `debian`
@@ -75,9 +75,6 @@ mmu             : sv39
 cpu-freq        : 1.848Ghz
 cpu-icache      : 64KB
 cpu-dcache      : 64KB
-cpu-l2cache     : 1MB
-cpu-tlb         : 1024 4-ways
-cpu-cacheline   : 64Bytes
 cpu-vector      : 0.7.1
 
 processor       : 1
@@ -137,9 +134,9 @@ debian@lpi4a:~$
 
 ## Test Criteria
 
-Test successful: The actual result matches the expected result.
+Successful: The actual result matches the expected result.
 
-Test failed: The actual result does not match the expected result.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

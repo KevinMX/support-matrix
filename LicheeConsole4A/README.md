@@ -3,7 +3,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - RevyOS (Sipeed Manufacturer Image)
     - Download Link: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/3_images.html)

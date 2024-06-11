@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS
 - Reference Installation Document: [https://revyos.github.io/](https://revyos.github.io/)
@@ -29,9 +29,9 @@ Install the [`ruyi`](https://github.com/ruyisdk/ruyi) package manager, run `ruyi
 
 Select the image according to LPi4A.
 
-### Log in to the System
+### Logging into the System
 
-Log in to the system using SOL (Serial Over LAN).
+Logging into the System using SOL (Serial Over LAN).
 
 BMC default username: `root`
 
@@ -58,7 +58,7 @@ The system boots up correctly, and you can log in through SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from system flashing to startup):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/G0poBmxPbBjIfpVOC1PW2xh9y.svg)](https://asciinema.org/a/G0poBmxPbBjIfpVOC1PW2xh9y)
 
@@ -106,12 +106,12 @@ debian@lpi4a:~$
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

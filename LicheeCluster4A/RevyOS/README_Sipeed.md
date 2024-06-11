@@ -1,8 +1,8 @@
-# RevyOS Sipeed Manufacturer Image Lichee Cluster 4A Version Test Report
+# RevyOS Sipeed Manufacturer Image Lichee Cluster 4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS 20230614-183009
 - Download Link: [Lichee Cluster 4A Firmware](https://dl.sipeed.com/shareURL/LICHEE/LicheeCluster4A/04_Firmware/lpi4a/bin)
@@ -24,7 +24,7 @@
 
 Use an A to A cable to connect to the SOM.
 
-### Flash Image
+### Flashing Image
 
 Use `unxz` to extract the image.
 
@@ -41,9 +41,9 @@ sudo ./fastboot flash boot boot-20230614-182922.ext4
 sudo ./fastboot flash root rootfs-20230614-183009.ext4
 ```
 
-### Login to System
+### Logging into the System
 
-Log in to the system via SOL (Serial Over LAN).
+Logging into the System via SOL (Serial Over LAN).
 
 BMC Default Username: `root`
 
@@ -64,7 +64,7 @@ The system starts up correctly, and you can log in via SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from system flashing to startup):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/KwCIHjcPOuepxFiwUGhh7sLuh.svg)](https://asciinema.org/a/KwCIHjcPOuepxFiwUGhh7sLuh)
 
@@ -100,12 +100,12 @@ debian@lc4aa0c8:~$
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

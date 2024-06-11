@@ -40,7 +40,7 @@
 
 ### 启动信息
 
-```log                                       
+```log
 System load:    1.47                                                                                                                                                         
 Processes:      130                                                                                                                                                          
 Memory used:    .6%                                                                                                                                                          

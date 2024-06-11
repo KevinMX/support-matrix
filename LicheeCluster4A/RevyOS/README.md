@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS (with mainline kernel)
 - Download Links
@@ -46,9 +46,9 @@ sudo ./fastboot flash boot boot-lpi4amain-20240127_105111.ext4
 sudo ./fastboot flash root root-lpi4amain-20240127_105111.ext4
 ```
 
-### Log into System
+### Logging into the System
 
-Log into the system via SOL (Serial Over LAN).
+Logging into the system via SOL (Serial Over LAN).
 
 Default BMC username: `root`
 
@@ -69,7 +69,7 @@ The system boots up normally and can be accessed through SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from flashing the system to booting):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/TVYy7DGHQR3O71I9BGJL0bECY.svg)](https://asciinema.org/a/TVYy7DGHQR3O71I9BGJL0bECY)
 
@@ -138,11 +138,11 @@ debian@lpi4amain:~$
 
 ```
 
-## Test Judgment Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

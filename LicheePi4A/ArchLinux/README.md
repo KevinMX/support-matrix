@@ -7,13 +7,13 @@
 - Download link: [https://mirror.iscas.ac.cn/archriscv/images/](https://mirror.iscas.ac.cn/archriscv/images/)
 - u-boot and boot downloads (using revyos): [https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20231210/](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)
 - fastboot download: [https://gitee.com/thead-yocto/light_deploy_images](https://gitee.com/thead-yocto/light_deploy_images)
-- Installation reference:
+- Reference Installation Document:
     - [ArchWiki](https://wiki.archlinux.org/title/General_recommendations)
 
 ### Hardware Information
 
 - Lichee Pi 4A (8GB RAM + 64GB eMMC)
-- Power adapter
+- Power Adapter
 - USB to UART debugger
 
 ## Installation Steps
@@ -57,7 +57,7 @@ exit
 sudo umount ./mnt
 ```
 
-### Flash bootloader
+### Flashing Bootloader
 
 Extract the installation suite.
 Flash u-boot and boot.
@@ -72,7 +72,7 @@ sudo ./fastboot flash uboot ./path/to/u-boot-with-spl-lpi4a.bin
 sudo ./fastboot flash boot boot-lpi4a-20231210_134926.ext4
 ```
 
-### Flash Image
+### Flashing Image
 
 Flash the root partition into eMMC.
 
@@ -80,24 +80,24 @@ Flash the root partition into eMMC.
 sudo ./fastboot flash root rootfs.ext4
 ```
 
-### Login to System
+### Logging into the System
 
 Access the system via serial port.
 
 Default username: `root`
 Default password: the password you set earlier.
 
-## Expected Outcome
+## Expected Results
 
 The system boots up successfully, allowing login via onboard serial port.
 
-## Actual Outcome
+## Actual Results
 
 The system boots up successfully, and login via onboard serial port is successful.
 
 ### Boot Information
 
-Screen Recording (from creating rootfs to logging into the system):
+Screen recording (from creating rootfs to logging into the system):
 [![asciicast](https://asciinema.org/a/7Ywwvlg1kdyAyTa9hiUOnv4yN.svg)](https://asciinema.org/a/7Ywwvlg1kdyAyTa9hiUOnv4yN)
 
 ```log
@@ -130,9 +130,9 @@ Last login: Sat Mar  9 10:04:36 on ttyS0
 
 ## Test Criteria
 
-Successful Test: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Failed Test: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 

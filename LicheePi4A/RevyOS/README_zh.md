@@ -5,7 +5,7 @@
 ### 操作系统信息
 
 - 系统版本：RevyOS 20231210
-- 下载链接：https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/
+- 下载链接：[ISCAS mirror](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)
 - 参考安装文档：https://revyos.github.io/docs/
 
 ### 硬件信息

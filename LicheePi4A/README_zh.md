@@ -23,6 +23,7 @@
 ### 硬件开发板信息
 
 - Lichee Pi 4A 16GB RAM + 128GB eMMC
+- Lichee Pi 4A 8GB RAM + 64GB eMMC
 
 ## 测试结果
 
@@ -36,9 +37,9 @@
 | Armbian 镜像启动        | N/A      | [成功][Armbian]             |
 | OpenWRT 镜像启动        | N/A      | [成功][OpenWRT]             |
 
-[oERV]: ./openEuler/README_ch.md
-[RevyOS]: ./RevyOS/README_ch.md
-[Fedora]: ./Fedora/README_ch.md
-[Armbian]: ./Armbian/README_ch.md
-[openKylin]: ./openKylin/README_ch.md
-[OpenWRT]: ./OpenWRT/README_ch.md
+[oERV]: ./openEuler/README_zh.md
+[RevyOS]: ./RevyOS/README_zh.md
+[Fedora]: ./Fedora/README_zh.md
+[Armbian]: ./Armbian/README_zh.md
+[openKylin]: ./openKylin/README_zh.md
+[OpenWRT]: ./OpenWRT/README_zh.md

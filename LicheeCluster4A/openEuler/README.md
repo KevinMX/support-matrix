@@ -1,8 +1,8 @@
-# openEuler Lichee Cluster 4A Version Test Report
+# openEuler Lichee Cluster 4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: openEuler 23.09 RISC-V preview
 - Download Link: [Here](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.09-V1-riscv64/lpi4a/)
@@ -30,9 +30,9 @@ Install the [`ruyi`](https://github.com/ruyisdk/ruyi) package manager, run `ruyi
 
 Choose the image accordingly for LPi4A.
 
-### Log into the System
+### Logging into the System
 
-Log into the system via SOL (Serial Over LAN).
+Logging into the system via SOL (Serial Over LAN).
 
 BMC default username: `root`
 
@@ -59,7 +59,7 @@ The system boots up successfully and allows login via SOL (Serial Over LAN).
 
 ### Boot Information
 
-Screen recording (from flashing the system to booting up):
+Screen recording (from flashing the system to startup up):
 
 [![asciicast](https://asciinema.org/a/PtLMh7Dm2RX3C4RPoTajplYbj.svg)](https://asciinema.org/a/PtLMh7Dm2RX3C4RPoTajplYbj)
 
@@ -98,12 +98,12 @@ ANSI_COLOR="0;31"
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.

@@ -1,9 +1,9 @@
 
-# OpenWRT Lichee Cluster 4A Version Test Report
+# OpenWRT Lichee Cluster 4A Test Report
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: OpenWRT
 - Download Link: [https://github.com/chainsx/openwrt-th1520/releases](https://github.com/chainsx/openwrt-th1520/releases)
@@ -25,17 +25,17 @@
 
 *The following steps apply to flashing the image to the first board in the cluster*
 
-### Flash Image
+### Flashing Image
 
 Use `gzip` to decompress the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 gzip -d /path/to/openwrt.img.xz
 sudo dd if=/path/to/openwrt.img of=/dev/your_device bs=1M status=progress
 ```
 
-### Flash Bootloader
+### Flashing Bootloader
 
 Use the u-boot downloaded above for this step.
 
@@ -46,7 +46,7 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/lpi4a-$(ram_size)-u-boot-with-spl.bin
 ```
 
-### System Login
+### Logging into the System
 
 Login to the system via SOL (Serial Over LAN).
 
@@ -72,7 +72,7 @@ The system booted successfully and login via SOL (Serial Over LAN) was possible.
 
 ### Boot Information
 
-Screen recording (from system flashing to startup):
+Screen recording (from flashing the system to startup):
 
 [![asciicast](https://asciinema.org/a/z6gochTcLaWlL9m0f1Gj6vyoe.svg)](https://asciinema.org/a/z6gochTcLaWlL9m0f1Gj6vyoe)
 
@@ -137,12 +137,12 @@ root@OpenWrt:/# [   33.853164] soc_dovdd18_scan: disabling
 
 ```
 
-## Testing Criteria
+## Test Criteria
 
-Test Success: Actual results match the expected results.
+Successful: The actual result matches the expected result.
 
-Test Failure: Actual results do not match the expected results.
+Failed: The actual result does not match the expected result.
 
 ## Test Conclusion
 
-Test Successful.
+Test successful.
