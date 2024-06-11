@@ -24,10 +24,10 @@
     - 参考安装文档：https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head
 - Armbian
     - 下载链接：https://github.com/chainsx/armbian-riscv-build/tree/main
-    - 参考安装文档：https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md
+    - 参考安装文档：https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide_zh.md
 - OpenWRT
     - 下载链接：https://github.com/chainsx/openwrt-th1520/releases
-    - 参考安装文档：https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md
+    - 参考安装文档：https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide_zh.md
 
 ### 硬件开发板信息
 
@@ -47,11 +47,11 @@
 | Armbian 镜像启动                 | N/A      | [成功][Armbian]                       |
 | OpenWRT 镜像启动                 | N/A      | [成功][OpenWRT]                       |
 
-[RevySipeed]: ./RevyOS/README_Sipeed.md
-[RevyLPi]: ./RevyOS/README_lpi4a.md
-[RevyOS]: ./RevyOS/README.md
-[oERV]: ./openEuler/README.md
-[oK]: ./openKylin/README.md
-[Fedora]: ./Fedora/README.md
-[Armbian]: ./Armbian/README.md
-[OpenWRT]: ./OpenWRT/README.md
+[RevySipeed]: ./RevyOS/README_Sipeed_zh.md
+[RevyLPi]: ./RevyOS/README_lpi4a_zh.md
+[RevyOS]: ./RevyOS/README_zh.md
+[oERV]: ./openEuler/README_zh.md
+[oK]: ./openKylin/README_zh.md
+[Fedora]: ./Fedora/README_zh.md
+[Armbian]: ./Armbian/README_zh.md
+[OpenWRT]: ./OpenWRT/README_zh.md

@@ -6,7 +6,7 @@
 
 - openEuler RISC-V 23.09 Preview
     - 下载链接：https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.09-V1-riscv64/lpi4a/
-    - 参考安装文档：https://gitee.com/yunxiangluo/openEuler-RISC-V-23.09-independent/blob/master/lpi4a/Install.md
+    - 参考安装文档：https://gitee.com/yunxiangluo/openEuler-RISC-V-23.09-independent/blob/master/lpi4a/Install_ch.md
 - RevyOS
     - 下载链接：https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/
     - 参考安装文档：https://docs.revyos.dev/
@@ -18,7 +18,7 @@
     - 参考安装文档：https://fedoraproject.org/wiki/Architectures/RISC-V/T-Head
 - Armbian
     - 下载链接：https://github.com/chainsx/armbian-riscv-build/tree/main
-    - 参考安装文档：https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md
+    - 参考安装文档：https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide_ch.md
 
 ### 硬件开发板信息
 
@@ -36,9 +36,9 @@
 | Armbian 镜像启动        | N/A      | [成功][Armbian]             |
 | OpenWRT 镜像启动        | N/A      | [成功][OpenWRT]             |
 
-[oERV]: ./openEuler/README.md
-[RevyOS]: ./RevyOS/README.md
-[Fedora]: ./Fedora/README.md
-[Armbian]: ./Armbian/README.md
-[openKylin]: ./openKylin/README.md
-[OpenWRT]: ./OpenWRT/README.md
+[oERV]: ./openEuler/README_ch.md
+[RevyOS]: ./RevyOS/README_ch.md
+[Fedora]: ./Fedora/README_ch.md
+[Armbian]: ./Armbian/README_ch.md
+[openKylin]: ./openKylin/README_ch.md
+[OpenWRT]: ./OpenWRT/README_ch.md

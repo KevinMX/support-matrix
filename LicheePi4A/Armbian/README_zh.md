@@ -7,7 +7,7 @@
 - 系统版本：Ubuntu 20.04 LTS 
 - 下载链接：[https://github.com/chainsx/armbian-riscv-build/tree/main](https://github.com/chainsx/armbian-riscv-build/tree/main)
     - u-boot: [https://github.com/chainsx/thead-u-boot/actions](https://github.com/chainsx/thead-u-boot/actions)
-- 参考安装文档：[https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide.md)
+- 参考安装文档：[https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide_ch.md](https://github.com/chainsx/armbian-riscv-build/blob/main/doc/licheepi-4a-install-guide_ch.md)
 - fastboot 链接：
     - [https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ](https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ)
     - [https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA](https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA)
