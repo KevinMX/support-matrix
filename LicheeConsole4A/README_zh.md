@@ -18,4 +18,4 @@
 |-------------|----------|--------------------|
 | RevyOS 镜像启动 | N/A    | [Good][RevyOS]     |
 
-[RevyOS]: ./RevyOS/README_ch.md
+[RevyOS]: ./RevyOS/README_zh.md

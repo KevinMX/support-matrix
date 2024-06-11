@@ -3,7 +3,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: OpenWRT
 - Download Link: [https://github.com/chainsx/openwrt-th1520/releases](https://github.com/chainsx/openwrt-th1520/releases)
@@ -28,14 +28,14 @@
 ### Flash Image
 
 Use `gzip` to decompress the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 gzip -d /path/to/openwrt.img.xz
 sudo dd if=/path/to/openwrt.img of=/dev/your_device bs=1M status=progress
 ```
 
-### Flash Bootloader
+### Flashing Bootloader
 
 Use the u-boot downloaded above for this step.
 
@@ -46,7 +46,7 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/lpi4a-$(ram_size)-u-boot-with-spl.bin
 ```
 
-### System Login
+### Logging into the System
 
 Login to the system via SOL (Serial Over LAN).
 

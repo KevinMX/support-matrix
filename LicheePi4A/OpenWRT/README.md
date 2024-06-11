@@ -23,7 +23,7 @@
 ### Flashing Image
 
 Use `gzip` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 gzip -d /path/to/openwrt.img.xz
@@ -51,11 +51,11 @@ Log into the system via serial port.
 
 Upon initial boot, it will automatically log in as the root user.
 
-## Expected Outcome
+## Expected Results
 
 The system should boot up properly and allow login via the onboard serial port.
 
-## Actual Outcome
+## Actual Results
 
 The system boots up successfully and allows login via the onboard serial port.
 

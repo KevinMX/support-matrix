@@ -20,17 +20,17 @@
 
 ## Installation Steps
 
-### Write Image
+### Flash Image
 
 Use `unxz` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/fedora.raw.xz
 sudo dd if=/path/to/fedora.raw of=/dev/your_device bs=1M status=progress
 ```
 
-### Flash Bootloader
+### Flashing Bootloader
 
 **Note: The Fedora's u-boot is in the image. After dd in the previous step, extract from the boot partition on the SD card!**
 ![u-boot](./u-boot.png)
@@ -48,9 +48,9 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/u-boot-with-spl_lpi4a.bin
 ```
 
-### Log in to the System
+### Logging into the System
 
-Log in to the system via serial port.
+Logging into the System via serial port.
 
 Default Username: `root`
 Default Password: `riscv`

@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - RevyOS (Sipeed Vendor Image)
     - Download link: [here](https://dl.sipeed.com/shareURL/LICHEE/LicheeCluster4A/04_Firmware/lpi4a/bin)

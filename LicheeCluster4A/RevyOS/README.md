@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS (with mainline kernel)
 - Download Links
@@ -46,7 +46,7 @@ sudo ./fastboot flash boot boot-lpi4amain-20240127_105111.ext4
 sudo ./fastboot flash root root-lpi4amain-20240127_105111.ext4
 ```
 
-### Log into System
+### Logging into the System
 
 Log into the system via SOL (Serial Over LAN).
 

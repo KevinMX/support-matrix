@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS
 - Download Link: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/3_images.html)
@@ -25,7 +25,7 @@ Press and hold the boot button while pressing the power button on the keyboard t
 ID 2345:7654 T-HEAD USB download gadget
 ```
 
-### Writing Image to Onboard eMMC using `fastboot`
+### Flashing Image to Onboard eMMC using `fastboot`
 
 Decompress the image using lz4:
 ```bash

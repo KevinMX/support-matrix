@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS 20231210
 - Download Link: [Click here](https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/)
@@ -20,7 +20,7 @@
 
 Install the [`ruyi`](https://github.com/ruyisdk/ruyi) package manager, run `ruyi device provision`, and follow the prompts.
 
-### Log into the System
+### Logging into the System
 
 Log into the system via serial console or graphical interface.
 

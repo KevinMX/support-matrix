@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: Fedora 38
 - Download link: [https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/](https://openkoji.iscas.ac.cn/pub/dl/riscv/T-Head/th1520_light/images/)
@@ -26,10 +26,10 @@
 
 *Note: Fedora system boots from an SD card, not eMMC, so make sure to insert the card*
 
-### Write Image
+### Flash Image
 
 Use `unxz` to decompress the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/fedora.raw.xz
@@ -48,7 +48,7 @@ sleep 10
 sudo ./fastboot flash uboot ./path/to/your/u-boot-with-spl_lpi4a.bin
 ```
 
-### System Login
+### Logging into the System
 
 Login to the system using SOL (Serial Over LAN).
 

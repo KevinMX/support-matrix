@@ -6,7 +6,7 @@
 
 - System Version: Fedora 38
 - Download Link: [https://github.com/chainsx/fedora-riscv-builder/releases](https://github.com/chainsx/fedora-riscv-builder/releases)
-- Installation Reference Document: [https://wiki.sipeed.com/hardware/zh/lichee/th1520/lpi4a/4_burn_image.html](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lpi4a/4_burn_image.html)
+- Installation Reference Document Document: [https://wiki.sipeed.com/hardware/zh/lichee/th1520/lpi4a/4_burn_image.html](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lpi4a/4_burn_image.html)
 - Fastboot Links:
     - [https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ](https://pan.baidu.com/e/1xH56ZlewB6UOMlke5BrKWQ)
     - [https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA](https://mega.nz/folder/phoQlBTZ#cZeQ3qZ__pDvP94PT3_bGA)
@@ -37,7 +37,7 @@ sudo ./fastboot flash uboot ./path/to/your/lpi4a-($ram_size)gb-u-boot-with-spl.b
 ### Flashing Image
 
 Use `unxz` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/fedora.raw.xz
@@ -51,11 +51,11 @@ Login to the system via serial console.
 Default username: `root`
 Default password: `fedora`
 
-## Expected Outcome
+## Expected Results
 
 The system should start up successfully and be accessible via the onboard serial console.
 
-## Actual Outcome
+## Actual Results
 
 The system started up correctly and I successfully logged in via the onboard serial console.
 

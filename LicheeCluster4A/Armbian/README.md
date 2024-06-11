@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: Ubuntu 20.04 LTS
 - Download Link: [https://github.com/chainsx/armbian-riscv-build/tree/main](https://github.com/chainsx/armbian-riscv-build/tree/main)
@@ -29,14 +29,14 @@
 ### Flash Image
 
 Use `unxz` to extract the image.
-Use `dd` to write the image to the microSD card.
+Use `dd` to flash the image to the microSD card.
 
 ```bash
 unxz /path/to/Armbian.img.xz
 sudo dd if=/path/to/Armbian.img of=/dev/your_device bs=1M status=progress
 ```
 
-### Flash Bootloader
+### Flashing Bootloader
 
 Use the u-boot downloaded above.
 

@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: RevyOS 20230614-183009
 - Download Link: [Lichee Cluster 4A Firmware](https://dl.sipeed.com/shareURL/LICHEE/LicheeCluster4A/04_Firmware/lpi4a/bin)
@@ -41,9 +41,9 @@ sudo ./fastboot flash boot boot-20230614-182922.ext4
 sudo ./fastboot flash root rootfs-20230614-183009.ext4
 ```
 
-### Login to System
+### Logging into the System
 
-Log in to the system via SOL (Serial Over LAN).
+Logging into the System via SOL (Serial Over LAN).
 
 BMC Default Username: `root`
 

@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: openEuler 23.09 RISC-V preview
 - Download Link: https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.09-V1-riscv64/lpi4a/
@@ -17,24 +17,24 @@
 
 ## Installation Steps
 
-### Write Image to Onboard eMMC Using `ruyi` CLI
+### Flash Image to Onboard eMMC Using `ruyi` CLI
 
 Install [`ruyi`](https://github.com/ruyisdk/ruyi) package manager, then run `ruyi device provision` and follow the prompts.
 
-### System Login
+### Logging into the System
 
 Login to the system via serial console.
 
 Default username: `openeuler` or `root`
 Default password: `openEuler12#$`
 
-## Expected Outcome
+## Expected Results
 
 The system boots up successfully and allows login via the serial console.
 
 If connected to a network, SSH login should be possible.
 
-## Actual Outcome
+## Actual Results
 
 The system boots up without issues, and both serial console and SSH login are successful.
 

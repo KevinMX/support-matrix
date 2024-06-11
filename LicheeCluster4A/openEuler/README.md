@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: openEuler 23.09 RISC-V preview
 - Download Link: [Here](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.09-V1-riscv64/lpi4a/)
@@ -30,7 +30,7 @@ Install the [`ruyi`](https://github.com/ruyisdk/ruyi) package manager, run `ruyi
 
 Choose the image accordingly for LPi4A.
 
-### Log into the System
+### Logging into the System
 
 Log into the system via SOL (Serial Over LAN).
 

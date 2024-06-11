@@ -2,7 +2,7 @@
 
 ## Test Environment
 
-### Operating System Information
+### System Information
 
 - System Version: openKylin 2.0 alpha
 - Download Link: [https://www.openkylin.top/downloads/index-cn.html](https://www.openkylin.top/downloads/index-cn.html)
@@ -47,7 +47,7 @@ Flash the root partition into the eMMC.
 sudo ./fastboot flash root ../../images/openkylin-2.0-alpha-licheepi4a-riscv64.ext4
 ```
 
-### System Login
+### Logging into the System
 
 Login to the system via SOL (Serial Over LAN).
 
