@@ -1,26 +1,26 @@
-# Debian Milk-V Duo 256M Test Report
+# Debian Milk-V Duo 256M 测试报告
 
-## Test Environment
+## 测试环境
 
-### Operating System Information
+### 操作系统信息
 
-- System Version: Debian
-- Download Link: https://github.com/Fishwaldo/sophgo-sg200x-debian
-- Reference Installation Document: https://github.com/Fishwaldo/sophgo-sg200x-debian
+- 系统版本：Debian
+- 下载链接：https://github.com/Fishwaldo/sophgo-sg200x-debian
+- 参考安装文档：https://github.com/Fishwaldo/sophgo-sg200x-debian
 
-> Note: This image is provided by community developers and is not an official image.
+> Note: 此镜像为社区开发者提供，非官方镜像。
 
-### Hardware Information
+### 硬件信息
 
 - Milk-V Duo 256M
-- One USB-A to C or USB C to C cable
-- One microSD card
-- One USB to UART debugger (e.g., CH340, CH341, FT2232, etc.)
-- Optional: Milk-V Duo IOB (Baseboard)
+- USB-A to C 或 USB C to C 线缆一条
+- microSD 卡一张
+- USB to UART 调试器一个（如：CH340, CH341, FT2232 等）
+- 可选：Milk-V Duo IOB（底板）
 
-## Installation Steps
+## 安装步骤
 
-### Using `dd` to Flash Image to microSD Card 
+### 使用 `dd` 刷写镜像到 microSD 卡
 
 ```shell
 wget https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/download/v1.3.0/duo256_sd.img.lz4
@@ -28,22 +28,22 @@ lz4 -d duo256_sd.img.lz4
 sudo dd if=duo256_sd.img of=/dev/your/device bs=1M status=progress
 ```
 
-### Logging into the System
+### 登录系统
 
-Logging into the system via the serial port.
+通过串口登录系统。
 
-Username: `root`
-Password: `rv`
+用户名：`root`
+密码：`rv`
 
-## Expected Results
+## 预期结果
 
-The system should boot normally and allow login via the serial port.
+系统正常启动，能够通过串口登录。
 
-## Actual Results
+## 实际结果
 
-The system booted successfully, and login via the serial port was also successful.
+系统正常启动，成功通过串口登录。
 
-### Boot Information
+### 启动信息
 
 ```log
 Debian GNU/Linux trixie/sid duo256 ttyS0
@@ -73,16 +73,16 @@ root@duo256:~#
 
 ```
 
-Screen recording of the boot process:
+启动流程屏幕录像：
 [![asciicast](https://asciinema.org/a/4p20IBBlCuE8jMxEExj19vMqd.svg)](https://asciinema.org/a/4p20IBBlCuE8jMxEExj19vMqd)
 
-## Test Criteria
 
-Successful: The actual result matches the expected result.
+## 测试判定标准
 
-Failed: The actual result does not match the expected result.
+测试成功：实际结果与预期结果相符。
 
-## Test Conclusion
+测试失败：实际结果与预期结果不符。
 
-Test successful.
+## 测试结论
 
+成功

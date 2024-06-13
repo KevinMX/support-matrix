@@ -1,52 +1,52 @@
-# Fedora 38 Milk-V Duo Test Report
+# Fedora 38 Milk-V Duo 测试报告
 
-## Test Environment
+## 测试环境
 
-### Operating System Information
+### 操作系统信息
 
-- System Version: Fedora 38
-- Download Link: https://github.com/chainsx/fedora-riscv-builder/releases/download/20230719-1650/Fedora-38-Minimal-MilkV-Duo-riscv64.img.xz
-- Reference Installation Document: https://github.com/chainsx/fedora-riscv-builder
+- 系统版本：Fedora 38
+- 下载链接：https://github.com/chainsx/fedora-riscv-builder/releases/download/20230719-1650/Fedora-38-Minimal-MilkV-Duo-riscv64.img.xz
+- 参考安装文档：https://github.com/chainsx/fedora-riscv-builder
 - Issue/CFH: https://github.com/chainsx/fedora-riscv-builder/issues/6
-    - (Image fails to boot)
+    - （镜像无法启动）
 
-> Note: This image is provided by community developers and is not an official image.
+> Note: 此镜像为社区开发者提供，非官方镜像。
 
-### Hardware Information
+### 硬件信息
 
 - Milk-V Duo 64M
-- One USB power adapter
-- One USB-A to C or USB-C to C cable
-- One microSD card
-- One USB to UART debugger (e.g., CH340, CH341, FT2232, etc.)
-- Three DuPont wires
-- The Milk-V Duo has pre-soldered pin headers required for debugging
-- Optional: Milk-V Duo IOB (baseboard)
+- USB 电源适配器一个
+- USB-A to C 或 USB C to C 线缆一条
+- microSD 卡一张
+- USB to UART 调试器一个（如：CH340, CH341, FT2232 等）
+- 杜邦线三根
+- Milk-V Duo 本体上预先焊接好调试所需的排针
+- 可选：Milk-V Duo IOB（底板）
 
-## Installation Steps
+## 安装步骤
 
-### Flashing the Image to microSD Card Using `dd`
+### 使用 `dd` 刷写镜像到 microSD 卡
 
 ```shell
 xzcat Fedora-38-Minimal-MilkV-Duo-riscv64.img.xz | sudo dd of=/dev/sdc bs=4M iflag=fullblock status=progress 
 ```
 
-### Logging into the System
+### 登录系统
 
-Log into the system via the serial port.
+通过串口登录系统。
 
-Username: `root`
-Password: `fedora`
+用户名：`root`
+密码：`fedora`
 
-## Expected Results
+## 预期结果
 
-The system should boot normally and allow login via the serial port.
+系统正常启动，能够通过串口登录。
 
-## Actual Results
+## 实际结果
 
-The system failed to boot successfully; systemd core dumps after powering on, preventing normal login.
+系统未能成功启动，上电后 systemd 会 coredump，无法正常登录。
 
-### Boot Information
+### 启动信息
 
 ```log
 [  *** ] (2 of 7) Job systemd-update-utmp.se…ice/start running (20s / no limit)                                                     
@@ -66,20 +66,20 @@ The system failed to boot successfully; systemd core dumps after powering on, pr
 [  182.719818] status: 8000000201804020 badaddr: ffffffffffffffff cause: 000000000000000d
 ```
 
-Screen recording of the boot process:
+启动流程屏幕录像：
 
 [![asciicast](https://asciinema.org/a/MxHNPZZ2MG8vPEBSmMNwTz6DY.svg)](https://asciinema.org/a/MxHNPZZ2MG8vPEBSmMNwTz6DY)
 
-### Defect Report
+### 缺陷报告
 
 https://github.com/chainsx/fedora-riscv-builder/issues/6
 
-## Test Criteria
+## 测试判定标准
 
-Successful: The actual result matches the expected result.
+测试成功：实际结果与预期结果相符。
 
-Failed: The actual result does not match the expected result.
+测试失败：实际结果与预期结果不符。
 
-## Test Conclusion
+## 测试结论
 
-Test failed.
+测试失败。

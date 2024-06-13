@@ -6,7 +6,7 @@
 ### Operating System Information
 
 - Source code link: [Community-PIO-CH32V/ch32-pio-projects](https://github.com/Community-PIO-CH32V/ch32-pio-projects)
-- Reference documents:
+- Reference Installation Document:
     - PlatformIO Core: [Installation Guide](https://docs.platformio.org/en/latest/core/installation/index.html)
     - PlatformIO CH32V: [Installation Instructions](https://pio-ch32v.readthedocs.io/en/latest/installation.html)
 

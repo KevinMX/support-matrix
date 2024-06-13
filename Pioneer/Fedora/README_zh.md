@@ -1,49 +1,49 @@
-# Fedora 38 Pioneer Test Report
+# Fedora 38 Pioneer 测试报告
 
-## Test Environment
+## 测试环境
 
-- System Version: Fedora 38
-- Download Link: [Google Drive](https://drive.google.com/file/d/1IjxeKiwtyDTmc2YGbn7yvpbCx0B1kkBh/view)
-- Reference Installation Document: [https://milkv.io/zh/docs/pioneer/getting-started/InstallOS](https://milkv.io/zh/docs/pioneer/getting-started/InstallOS)
+- 系统版本：Fedora 38
+- 下载链接：[Google Drive](https://drive.google.com/file/d/1IjxeKiwtyDTmc2YGbn7yvpbCx0B1kkBh/view)
+- 参考安装文档：[https://milkv.io/zh/docs/pioneer/getting-started/InstallOS](https://milkv.io/zh/docs/pioneer/getting-started/InstallOS)
 
-### Hardware Information
+### 硬件信息
 
 - Milk-V Pioneer Box v1.1
-- One microSD card
-- One USB to UART debugger (or HDMI cable + monitor)
+- microSD 卡一张
+- USB to UART 调试器一个（或 HDMI 线 + 显示器）
 
-## Installation Steps
+## 安装步骤
 
-### Flashing Image
+### 刷写镜像
 
-Use `unxz` to decompress the image.
-Use `dd` to write the image to the microSD card.
+使用 `unxz` 解压镜像。
+使用 `dd` 将镜像写入 microSD 卡。
 
 ```bash
 unxz /path/to/fedora.raw.xz
 sudo dd if=/path/to/fedora.raw of=/dev/your_device bs=4M status=progress
 ```
 
-### Logging into the System
+### 登录系统
 
-Logging in to the system via serial port.
+通过串口登录系统。
 
-Default username: `root`
-Default password: `riscv`
+默认用户名： `root`
+默认密码： `riscv`
 
-If booting for the first time from HDMI, the system will enter the installation wizard interface.
+若从 HDMI 初次启动，系统会进入安装向导界面。
 
-## Expected Results
+## 预期结果
 
-The system should boot up properly, allow login via onboard serial port, and access the installation wizard.
+系统正常启动，能够通过板载串口登录。能进入安装向导。
 
-## Actual Results
+## 实际结果
 
-The system booted up correctly, allowed successful login via the onboard serial port, and accessed the installation wizard.
+系统正常启动，成功通过板载串口登录。能进入安装向导。
 
-### Boot Information
+### 启动信息
 
-Screen recording (from flashing image to logging into the system):
+屏幕录像（从刷写镜像到登录系统）：
 
 [![asciicast](https://asciinema.org/a/o9SKKWMrCoOV38yKIzNDcLEDb.svg)](https://asciinema.org/a/o9SKKWMrCoOV38yKIzNDcLEDb)
 
@@ -607,12 +607,12 @@ marchid         : 0x0
 mimpid          : 0x0
 ```
 
-## Test Criteria
+## 测试判定标准
 
-Successful: The actual result matches the expected result.
+测试成功：实际结果与预期结果相符。
 
-Failed: The actual result does not match the expected result.
+测试失败：实际结果与预期结果不符。
 
-## Test Conclusion
+## 测试结论
 
-Test successful.
+测试成功。
