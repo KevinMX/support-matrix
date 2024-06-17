@@ -5,7 +5,7 @@
 ### 操作系统信息
 
 - 系统版本：Ubuntu 24.04
-- 下载链接：https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-preinstalled-server-riscv64+nezha.img.xz
+- 下载链接：https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-preinstalled-server-riscv64+nezha.img.xz?
 - 参考安装文档：https://wiki.ubuntu.com/RISC-V/Nezha%20D1?
 
 ### 硬件信息
