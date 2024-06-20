@@ -115,11 +115,11 @@ Connect to the development board via the serial port.
 
 ## Expected Results
 
-The system should boot up normally, and information should be visible through the onboard serial port.
+The system should boot up normally, with information via the onboard serial port.
 
 ## Actual Results
 
-The system booted up normally, and information could be viewed through the onboard serial port.
+The system booted up normally, and startup information via the onboard serial port.
 
 ### Boot Information
 
