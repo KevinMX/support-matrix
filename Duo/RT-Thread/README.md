@@ -73,7 +73,7 @@ The system should boot normally and allow login through the serial port.
 
 The system booted successfully, and login through the serial port was successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 Boot from SD ...                                                                                                                    

@@ -43,7 +43,7 @@ The system should boot normally and allow login via the serial port.
 
 The system booted successfully, and login via the serial port was also successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 Debian GNU/Linux trixie/sid duo256 ttyS0

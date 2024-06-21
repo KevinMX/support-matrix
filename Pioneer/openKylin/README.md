@@ -40,7 +40,7 @@ The system boots up normally and allows login through the graphical interface.
 
 The system boots up normally and login through the graphical interface is successful.
 
-### Boot Information
+### Boot Log
 
 ![desktop_uname](./desktop_uname.png)
 

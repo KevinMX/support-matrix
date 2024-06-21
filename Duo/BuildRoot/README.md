@@ -36,7 +36,7 @@ The system boots up normally and allows login through the onboard serial port.
 
 The system booted successfully and login via the onboard serial port was also successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 [root@milkv-duo]~# uname -a                                                                                                                                             

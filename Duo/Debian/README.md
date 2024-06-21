@@ -45,7 +45,7 @@ The system boots up normally and allows login through the serial port.
 
 The system boots up normally and login through the serial port is successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 Debian GNU/Linux trixie/sid milkv-duo ttyS0

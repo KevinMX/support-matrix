@@ -26,7 +26,7 @@
     - rootfs: https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/openeuler-rootfs.tar.gz
   - Reference Installation Document: https://blog.inuyasha.love/linuxeveryday/33.html
 
-### Hardware Development Board Information
+### Hardware Information
 
 - Milk-V Duo (64M, CV1800B)
 

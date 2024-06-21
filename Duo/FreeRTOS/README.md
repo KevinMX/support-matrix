@@ -84,7 +84,7 @@ The system should boot normally. After logging in through the onboard serial por
 
 The system booted successfully, logging in through the onboard serial port was successful, and the `mailbox_test` ran correctly with the onboard LED turning on and then off.
 
-### Boot Information
+### Boot Log
 
 ```log
 [    7.841103] sync_task_init:177(): sync_task_init vi_pipe 1

@@ -41,7 +41,7 @@ The system should boot up properly, allow login via onboard serial port, and acc
 
 The system booted up correctly, allowed successful login via the onboard serial port, and accessed the installation wizard.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing image to logging into the system):
 

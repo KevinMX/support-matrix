@@ -46,7 +46,7 @@ The system should boot normally and allow login via the serial port.
 
 The system failed to boot successfully; systemd core dumps after powering on, preventing normal login.
 
-### Boot Information
+### Boot Log
 
 ```log
 [  *** ] (2 of 7) Job systemd-update-utmp.se…ice/start running (20s / no limit)                                                     

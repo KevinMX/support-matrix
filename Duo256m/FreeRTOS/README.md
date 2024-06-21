@@ -85,7 +85,7 @@ The system boots normally, and after logging in through the onboard serial port,
 
 The system booted normally, successfully logged in via the onboard serial port. The `mailbox_test` ran successfully, and the onboard LED lit up and then turned off.
 
-### Boot Information
+### Boot Log
 
 ```log
 The authenticity of host '192.168.42.1 (192.168.42.1)' can't be established.

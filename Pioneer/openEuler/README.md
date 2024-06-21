@@ -35,7 +35,7 @@ The system starts up properly and can be accessed via SSH.
 
 The system starts up correctly and SSH login is successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 System load:    1.61

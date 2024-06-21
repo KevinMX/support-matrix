@@ -84,7 +84,7 @@ The system should boot up normally and output threadx-related information.
 
 The system boots up normally and outputs threadx-related information.
 
-### Boot Information
+### Boot Log
 
 The serial port output after boot is as follows.
 

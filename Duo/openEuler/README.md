@@ -169,7 +169,7 @@ The system should boot normally and allow login via the serial port.
 
 The system booted successfully and login via the serial port was also successful.
 
-### Boot Information
+### Boot Log
 
 Screen recording (skipping compilation, from image creation to system login):
 

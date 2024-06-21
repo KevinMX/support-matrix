@@ -18,7 +18,7 @@
     - Download link: https://www.openkylin.top/downloads
     - Reference Installation Document: https://docs.openkylin.top/zh/%E7%A4%BE%E5%8C%BA%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/riscv%E4%B8%8A%E5%AE%89%E8%A3%85openKylin
 
-### Hardware Development Board Information
+### Hardware Information
 
 - Milk-V Pioneer (v1.3)
 
