@@ -11,7 +11,7 @@
         - PlatformIO Core: [Installation Guide](https://docs.platformio.org/en/latest/core/installation/index.html)
         - PlatformIO for CH32V: [Installation Guide](https://pio-ch32v.readthedocs.io/en/latest/installation.html)
 
-### Hardware Development Board Information
+### Board Information
 
 - CH32V305FBP6-EVT-R0-1v0
 

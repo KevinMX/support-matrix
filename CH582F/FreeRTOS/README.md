@@ -92,7 +92,7 @@ The system should boot up correctly, and information should be viewable via the 
 
 The system booted up correctly, and information was viewable via the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from compilation to boot):
 [![asciicast](https://asciinema.org/a/ZGVaNo7NxIiI7lJA0w0cM6nCX.svg)](https://asciinema.org/a/ZGVaNo7NxIiI7lJA0w0cM6nCX)

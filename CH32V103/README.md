@@ -15,7 +15,7 @@
         - PlatformIO CH32V: [https://pio-ch32v.readthedocs.io/en/latest/installation.html](https://pio-ch32v.readthedocs.io/en/latest/installation.html)
 
 
-### Hardware Development Board Information
+### Board Information
 
 - CH32V103C-EVT-R1-1v1
 

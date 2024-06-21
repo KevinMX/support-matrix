@@ -120,7 +120,7 @@ The system should boot up normally, and information should be viewable through t
 
 The system booted up normally, and information was viewable through the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from compilation to startup):
 [![asciicast](https://asciinema.org/a/IstntoTjF0bRKSFrRoOWQ1Th9.svg)](https://asciinema.org/a/IstntoTjF0bRKSFrRoOWQ1Th9)
