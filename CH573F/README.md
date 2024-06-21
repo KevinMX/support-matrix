@@ -12,7 +12,7 @@
     - Flashing Tool:
         - [wchisp](https://github.com/ch32-rs/wchisp/)
 
-### Board Information
+### Hardware Information
 
 - CH573F
 

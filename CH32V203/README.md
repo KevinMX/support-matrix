@@ -12,7 +12,7 @@
         - PlatformIO CH32V: [Installation Guide](https://pio-ch32v.readthedocs.io/en/latest/installation.html)
 
 
-### Board Information
+### Hardware Information
 
 - CH32V203G6U6-EVT-R0-1v0
 - CH32V203C8T6-EVT-R0-1v0
