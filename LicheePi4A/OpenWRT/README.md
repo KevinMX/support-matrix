@@ -59,7 +59,7 @@ The system should boot up properly and allow login via the onboard serial port.
 
 The system boots up successfully and allows login via the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flash the image to logging into the system):
 

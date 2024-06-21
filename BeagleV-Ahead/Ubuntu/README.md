@@ -44,7 +44,7 @@ The system boots up successfully and can be logged into through the onboard seri
 
 The system boots up successfully, and login via the onboard serial port is successful.
 
-### Boot Messages
+### Boot Log
 
 Screen recording (from flashing the image to startup):
 

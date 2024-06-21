@@ -15,13 +15,13 @@
 
 ## 安装步骤
 
-### 刷写 Gateway 模块
+### 刷写 Gatware 模块
 
-**理论上 Gateway 已经刷写好，开箱即用。**
+**理论上 Gatware 已经刷写好，开箱即用。**
 
-### 升级 Gateway
+### 升级 Gatware
 
-**升级 Gateway 可直接在板上自带 Linux 中进行**，见[官方文档](https://docs.beagleboard.org/latest/boards/beaglev/fire/demos-and-tutorials/gateware/upgrade-gateware.html)
+**升级 Gatware 可直接在板上自带 Linux 中进行**，见[官方文档](https://docs.beagleboard.org/latest/boards/beaglev/fire/demos-and-tutorials/gateware/upgrade-gateware.html)
 
 进入 Linux 命令行后（SSH、UART 等均可）
 ```bash
@@ -32,7 +32,7 @@ cd /usr/share/beagleboard/gateware
 . ./change-gateware.sh default
 ```
 
-### 刷写 Gateway
+### 刷写 Gatware
 
 在这里下载 FlashPro Express：
 https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-and-soc-design-tools/programming-and-debug

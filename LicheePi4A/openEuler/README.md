@@ -38,7 +38,7 @@ If connected to a network, SSH login should be possible.
 
 The system boots up without issues, and both serial console and SSH login are successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 System load:    1.47                                                                                                                                                         

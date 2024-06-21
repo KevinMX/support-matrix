@@ -9,7 +9,7 @@
     - Download Link: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/3_images.html)
     - Reference Installation Document: [here](https://wiki.sipeed.com/hardware/zh/lichee/th1520/lcon4a/4_burn_image.html)
 
-### Hardware Development Board Information
+### Board Information
 
 - Lichee Console 4A
 
