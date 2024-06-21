@@ -63,7 +63,7 @@ The system starts up correctly, and login is successful.
 
 The system boots up correctly, allows successful login, and access to the system.
 
-### Boot Information
+### Boot Log
 
 Screen recording (flashing the system):
 

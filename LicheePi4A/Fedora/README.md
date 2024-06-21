@@ -63,7 +63,7 @@ The system boots up correctly and can be accessed via the onboard serial port.
 
 The system boots up correctly, successfully logged in via the onboard serial port, and can access the desktop.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing the image to logging into the system):
 

@@ -95,7 +95,7 @@ The system boots up successfully, allowing login via onboard serial port.
 
 The system boots up successfully, and login via onboard serial port is successful.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from creating rootfs to logging into the system):
 [![asciicast](https://asciinema.org/a/7Ywwvlg1kdyAyTa9hiUOnv4yN.svg)](https://asciinema.org/a/7Ywwvlg1kdyAyTa9hiUOnv4yN)

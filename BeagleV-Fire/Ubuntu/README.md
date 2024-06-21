@@ -15,13 +15,13 @@
 
 ## Installation Steps
 
-### Flashing Gateway Module
+### Flashing Gatware Module
 
-**In theory, the Gateway should be pre-flashed and ready to use out of the box.**
+**In theory, the Gatware should be pre-flashed and ready to use out of the box.**
 
-### Gateway Upgrade
+### Gatware Upgrade
 
-**The Gateway upgrade can be directly performed in the pre-installed Linux on the board**, refer to [official documentation](https://docs.beagleboard.org/latest/boards/beaglev/fire/demos-and-tutorials/gateware/upgrade-gateware.html)
+**The Gatware upgrade can be directly performed in the pre-installed Linux on the board**, refer to [official documentation](https://docs.beagleboard.org/latest/boards/beaglev/fire/demos-and-tutorials/gateware/upgrade-gateware.html)
 
 Upon accessing the Linux command line (via SSH, UART, etc.)
 ```bash
@@ -32,7 +32,7 @@ cd /usr/share/beagleboard/gateware
 . ./change-gateware.sh default
 ```
 
-### Flashing Gateway
+### Flashing Gatware
 
 Download FlashPro Express from here:
 https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-and-soc-design-tools/programming-and-debug
@@ -89,7 +89,7 @@ The system should boot up normally, allowing login via the onboard serial port.
 
 The system booted up successfully and login via the onboard serial port was achieved.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing the image to system login):
 
