@@ -122,7 +122,7 @@ The system should boot up properly and allow connect via the onboard serial port
 
 The system should boot up properly and allow connect via the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from compilation to startup):
 

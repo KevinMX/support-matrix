@@ -13,7 +13,7 @@
 - Lichee Cluster 4A 8G / 16G
 - DC 12V Power Supply
 - USB-A to A
-    - or LPi4A Baseboard
+    - or LPi4A Dock
 - Network and Ethernet Cable (Ensure connection to BMC instead of switch)
 
 ## Installation Steps
@@ -62,7 +62,7 @@ The system starts up correctly, and you can log in via SOL (Serial Over LAN).
 
 The system starts up correctly, and you can log in via SOL (Serial Over LAN).
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing the system to startup):
 

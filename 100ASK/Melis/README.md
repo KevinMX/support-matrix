@@ -63,7 +63,7 @@ System should boot up normally, with output visible through the serial port.
 
 System booted up successfully, and output was visible through the serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording:
 

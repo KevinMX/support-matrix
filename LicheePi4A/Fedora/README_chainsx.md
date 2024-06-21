@@ -59,7 +59,7 @@ The system should start up successfully and be accessible via the onboard serial
 
 The system started up correctly and I successfully logged in via the onboard serial console.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing the image to logging into the system):
 

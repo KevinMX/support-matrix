@@ -35,7 +35,7 @@ The system boots up successfully and can be accessed via the serial console.
 
 The system boots up successfully and login via the serial console is successful.
 
-### Boot Information
+### Boot Log
 
 ```log
 Debian GNU/Linux 12 lpi4a ttyS0

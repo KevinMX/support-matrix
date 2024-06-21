@@ -66,7 +66,7 @@ Successful build with the development board displaying OS information correctly.
 
 Successful build with the development board correctly displaying OS information.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from system flashing to start):
 [![asciicast](https://asciinema.org/a/uml0eDGjJXKoaFuPn2K1D2WSv.svg)](https://asciinema.org/a/uml0eDGjJXKoaFuPn2K1D2WSv)

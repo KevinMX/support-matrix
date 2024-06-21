@@ -57,7 +57,7 @@ The system boots up successfully and allows login via SOL (Serial Over LAN).
 
 The system boots up successfully and allows login via SOL (Serial Over LAN).
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing the system to startup up):
 

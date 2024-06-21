@@ -54,7 +54,7 @@ The system should boot successfully, allowing login via the onboard serial conso
 
 The system booted up correctly, and login via the onboard serial console was successful.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing the image to system login):
 

@@ -104,7 +104,7 @@ The system boots up successfully, and information can be viewed through the onbo
 
 The system boots up successfully, and information can be viewed through the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from compilation to boot):
 [![asciicast](https://asciinema.org/a/1oVzw3PJ1k0wQM9HYsBR8q3hl.svg)](https://asciinema.org/a/1oVzw3PJ1k0wQM9HYsBR8q3hl)

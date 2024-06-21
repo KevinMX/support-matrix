@@ -45,7 +45,7 @@ The system boots up correctly and can be accessed via onboard serial port.
 
 The system boots up correctly and can be accessed successfully via the onboard serial port.
 
-### Boot-up Information
+### Boot Log
 
 Screen recording (from flashing  the image to startup):
 

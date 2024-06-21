@@ -12,7 +12,7 @@
     - Flash Tool:
         - https://github.com/ch32-rs/wchisp/
 
-### Hardware Development Board Information
+### Board Information
 
 - CH592X-EVT-R1-1v0
 

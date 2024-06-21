@@ -10,7 +10,7 @@
         - PlatformIO Core: https://docs.platformio.org/en/latest/core/installation/index.html
         - PlatformIO CH32V: https://pio-ch32v.readthedocs.io/en/latest/installation.html
 
-### Hardware Development Board Information
+### Board Information
 
 - CH582F-EVT-R2-1v0-BC
 

@@ -42,7 +42,7 @@ The system starts up correctly and information can be viewed through the onboard
 
 The system starts up correctly, and information can be viewed through the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from flashing to startup):
 ```log

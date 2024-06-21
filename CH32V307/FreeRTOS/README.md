@@ -104,7 +104,7 @@ The system starts normally, and information can be viewed via the onboard serial
 
 The system starts normally, and information can be viewed via the onboard serial port.
 
-### Boot Information
+### Boot Log
 
 Screen recording (from compilation to startup):
 [![asciicast](https://asciinema.org/a/NZ9udm2pNnA11dERnWfv0Nld9.svg)](https://asciinema.org/a/NZ9udm2pNnA11dERnWfv0Nld9)
