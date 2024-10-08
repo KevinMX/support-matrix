@@ -1,0 +1,10 @@
+ CPU         , IP Core                                    , link, Product/Model                          , Android , OpenHarmony 
+ JH7100      , SiFive U74 + SiFive E24                    , VisionFive, VisionFive                      , WIP     , WIP         
+ JH7110      , SiFive U74 + SiFive S7 + SiFive E24        , VisionFive2, VisionFive 2                    , WIP     , WIP         
+ D1-H        , XuanTie C906                               , D1_LicheeRV, LicheeRV/AWOL Nezha            , -       , CFT         
+ D1-H        , XuanTie C906                               , DongshanPI-STU, DongshanPI-Nezha STU , -       , CFT         
+ D1-H        , XuanTie C906                               , mangopi_mq_pro, MangoPi MQ Pro       , -       , CFT         
+ TH1520      , XuanTie C910 + XuanTie C906 + XuanTie E902 , BeagleV-Ahead, BeagleV-Ahead                        , CFT     , CFT         
+ TH1520      , XuanTie C910 + XuanTie C906 + XuanTie E902 , LicheePi4A, LicheePi 4A                   , CFT     , CFT         
+ SG2042      , XuanTie C920                               , Pioneer, Pioneer Box                 , -       , WIP         
+ Keystone K1 , SpacemiT X60                               , BPI-F3, BananaPi BPI-F3              , -       , CFT         
