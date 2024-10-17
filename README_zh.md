@@ -4,25 +4,25 @@
 
 ## Linux 发行版
 
-![Linux](./linux.svg)
+![Linux](https://raw.githubusercontent.com/ruyisdk/support-matrix/main/linux.svg)
 
 ---
 
 ## *BSD
 
-![BSD](./bsd.svg)
+![BSD](https://raw.githubusercontent.com/ruyisdk/support-matrix/main/bsd.svg)
 
 ---
 
 ## RTOS / 实时操作系统
 
-![RTOS](./rtos.svg)
+![RTOS](https://raw.githubusercontent.com/ruyisdk/support-matrix/main/rtos.svg)
 
 ---
 
 ## 其它
 
-![Others](./others.svg)
+![Others](https://raw.githubusercontent.com/ruyisdk/support-matrix/main/others.svg)
 
 ---
 
