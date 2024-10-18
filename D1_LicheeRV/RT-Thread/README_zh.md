@@ -30,7 +30,7 @@ cd rtthread-smart
 python tools/get_toolchain.py riscv64
 source smart-env.sh riscv64
 ```
-资源可能已经失效？你可能需要自行下载一个riscv64-unknown-linux-musl工具链并安装scons，然后把工具链放到·tools/gnu_gcc/riscv64-linux-musleabi_for_x86_64-pc-linux-gnu/bin`（或者手动更改smart-env.sh中的路径）
+资源可能已经失效？你可能需要自行下载一个riscv64-unknown-linux-musl工具链并安装scons，然后把工具链放到`tools/gnu_gcc/riscv64-linux-musleabi_for_x86_64-pc-linux-gnu/bin`（或者手动更改smart-env.sh中的路径）
 
 配置工具链：
 ```bash
