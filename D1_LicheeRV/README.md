@@ -46,6 +46,10 @@ cpu_core: XuanTie C906
 - openSUSE Tumbleweed
   - Download link: [https://download.opensuse.org/repositories/devel:/RISCV:/Factory:/Contrib:/AllwinnerD1/images/](https://download.opensuse.org/repositories/devel:/RISCV:/Factory:/Contrib:/AllwinnerD1/images/)
   - Reference Installation Document: [https://en.opensuse.org/HCL:Nezha](https://en.opensuse.org/HCL:Nezha)
+- RT-Thread:
+  - Download Link: https://github.com/RT-Thread/rt-thread/
+  - Reference Installation Document: https://github.com/RT-Thread/rt-thread/blob/master/bsp/allwinner/d1/README.md
+
 
 ### Hardware Information
 
@@ -65,6 +69,7 @@ cpu_core: XuanTie C906
 | Fedora Image Boot                | N/A          | [Successful][Fedora]                       |
 | openSUSE Image Boot              | N/A          | [Successful][openSUSE]                     |
 | Arch Linux Image Boot            | N/A          | [Successful][Arch]                         |
+| RT-Thread Compile and Boot       | N/A          | [CFT][RTThread]                        |
 
 [oERVDL]: https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/D1/
 [oERV]: ./openEuler/README.md
@@ -75,3 +80,4 @@ cpu_core: XuanTie C906
 [Fedora]: ./Fedora/README.md
 [openSUSE]: ./openSUSE/README.md
 [Arch]: ./ArchLinux/README.md
+[RTThread]: ./RT-Thread/README.md

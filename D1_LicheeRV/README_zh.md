@@ -41,6 +41,9 @@
 - openSUSE Tumbleweed
   - 下载链接：[https://download.opensuse.org/repositories/devel:/RISCV:/Factory:/Contrib:/AllwinnerD1/images/](https://download.opensuse.org/repositories/devel:/RISCV:/Factory:/Contrib:/AllwinnerD1/images/)
   - 参考安装文档：[https://en.opensuse.org/HCL:Nezha](https://en.opensuse.org/HCL:Nezha)
+- RT-Thread:
+  - 下载链接：https://github.com/RT-Thread/rt-thread/
+  - 参考安装文档：https://github.com/RT-Thread/rt-thread/blob/master/bsp/allwinner/d1/README.md
 
 ### 硬件开发板信息
 
@@ -60,6 +63,7 @@
 | Fedora 镜像启动                | N/A          | [成功][Fedora]                |
 | openSUSE 镜像启动              | N/A          | [成功][openSUSE]              |
 | Arch Linux 镜像启动            | N/A          | [成功][Arch]                  |
+| RT-Thread 编译启动             | N/A          | [CFT][RTThread]                        |
 
 [oERVDL]: https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/D1/
 [oERV]: ./openEuler/README_zh.md
@@ -70,3 +74,4 @@
 [Fedora]: ./Fedora/README_zh.md
 [openSUSE]: ./openSUSE/README_zh.md
 [Arch]: ./ArchLinux/README_zh.md
+[RTThread]: ./RT-Thread/README.md
