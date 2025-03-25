@@ -256,6 +256,8 @@ def gen_color(_, col, content):
         return yellow
     if "WIP" in content or "CFH" in content:
         return red
+    if "CFI" in content:
+        return gray
     return gray
 
 
