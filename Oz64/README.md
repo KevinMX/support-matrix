@@ -2,6 +2,8 @@
 product: Pine64 Oz64
 cpu: SG2000
 cpu_core: XuanTie C906 + ARM Cortex-A53
+cpu_arch: [xuantie-c906, armv8-a,]
+board_variant: [generic,]
 ram: 512MB
 ---
 
