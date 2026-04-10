@@ -14,24 +14,6 @@
 
 ---
 
-### *BSD
-
-![BSD](https://ruyisdk.github.io/support-matrix/bsd_zh.svg)
-
----
-
-### RTOS / 实时操作系统
-
-![RTOS](https://ruyisdk.github.io/support-matrix/rtos_zh.svg)
-
----
-
-### 其它
-
-![Others](https://ruyisdk.github.io/support-matrix/others_zh.svg)
-
----
-
 ## 工具
 
 目前 [assets](assets) 包含支持项目运行的工具和脚本，包括但不限于：

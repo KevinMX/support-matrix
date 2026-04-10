@@ -28,27 +28,6 @@ linux:
   - ubuntu: Ubuntu
   - yocto: Yocto
 
-bsd:
-  - freebsd: FreeBSD
-  - netbsd: NetBSD
-  - openbsd: OpenBSD
-
-rtos:
-  - freertos: FreeRTOS
-  - liteos: LiteOS
-  - melis: Melis
-  - nuttx: NuttX
-  - rtthread: RT-Thread
-  - threadx: ThreadX
-  - ucosii: μC/OS-II
-  - uniproton: UniProton
-  - zephyr: Zephyr
-
-others:
-  - android: Android
-  - openharmony: OpenHarmony
-  - xv6: xv6
-
 customized:
   - bianbu: Bianbu
   - redleafos: RedleafOS

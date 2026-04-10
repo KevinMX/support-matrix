@@ -4,7 +4,7 @@
 
 ## 概述
 
-本文档面向希望为 RuyiSDK 支持矩阵项目贡献内容的开发者。项目采用 GitHub Pull Request 机制进行协作。
+本文档面向希望为 RISC-V 支持矩阵项目贡献内容的开发者。项目采用 GitHub Pull Request 机制进行协作。
 
 参与贡献前，您需要：
 1. 拥有 [GitHub 账号](https://github.com/signup)
@@ -38,12 +38,6 @@
     |--- others.yml # 没有文档的系统的 metadata
 ```
 
-## 行为准则
-
-在为 RuyiSDK 做贡献时，请尊重并考虑他人。我们旨在为所有贡献者营造一个开放和友好的环境。
-
-请您遵守[《RuyiSDK 社区行为准则》](https://ruyisdk.org/en/code_of_conduct)。
-
 ## 快速开始
 
 ### 创建 PR 流程
@@ -59,7 +53,7 @@
 
 ### 开发者原创声明（DCO）
 
-我们要求 RuyiSDK 的所有贡献都包含[开发者原创声明（DCO）](https://developercertificate.org/)。DCO 是一种轻量级方式，使贡献者可以证明他们编写或有权提交所贡献的代码。
+我们要求所有贡献都包含[开发者原创声明（DCO）](https://developercertificate.org/)。DCO 是一种轻量级方式，使贡献者可以证明他们编写或有权提交所贡献的代码。
 
 #### 什么是 DCO？
 

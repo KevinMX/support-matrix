@@ -6,29 +6,11 @@
 
 ### Linux Distributions
 
-![Linux](https://ruyisdk.github.io/support-matrix/linux.svg)
+![Linux](https://kevinmx.github.io/support-matrix/linux.svg)
 
 ### Customized Linux Distributions
 
-![Customized](https://ruyisdk.github.io/support-matrix/customized.svg)
-
----
-
-### *BSD
-
-![BSD](https://ruyisdk.github.io/support-matrix/bsd.svg)
-
----
-
-### RTOS / Real-Time Operating Systems
-
-![RTOS](https://ruyisdk.github.io/support-matrix/rtos.svg)
-
----
-
-### Others
-
-![Others](https://ruyisdk.github.io/support-matrix/others.svg)
+![Customized](https://kevinmx.github.io/support-matrix/customized.svg)
 
 ---
 
