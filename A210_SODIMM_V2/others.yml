@@ -1,8 +1,0 @@
-- sys: debian
-  sys_ver: null
-  sys_var: null
-  status: wip
-- sys: buildroot
-  sys_ver: null
-  sys_var: null
-  status: wip

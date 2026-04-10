@@ -1,9 +1,0 @@
-- sys: debian
-  sys_ver: null
-  sys_var: null
-  provider: Vendor
-  status: cft
-- sys: irradium
-  sys_ver: 3.8
-  sys_var: null
-  status: cft

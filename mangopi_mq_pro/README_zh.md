@@ -1,2 +1,0 @@
-# MangoPi MQ Pro
-
