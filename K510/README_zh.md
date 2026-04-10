@@ -1,2 +1,0 @@
-# Canaan Kendryte K510
-

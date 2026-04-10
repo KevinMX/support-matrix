@@ -1,2 +1,0 @@
-# Sipeed M0s
-
