@@ -1,2 +1,0 @@
-# Milk-V Duo S
-
